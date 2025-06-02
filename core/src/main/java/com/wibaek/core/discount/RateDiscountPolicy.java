@@ -2,7 +2,9 @@ package com.wibaek.core.discount;
 
 import com.wibaek.core.member.Grade;
 import com.wibaek.core.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
     private int discountPercent = 10;
